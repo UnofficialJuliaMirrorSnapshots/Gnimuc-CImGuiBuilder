@@ -8,10 +8,10 @@ version = v"1.71.0"
 # Collection of sources required to build CImGui
 sources = [
     "https://github.com/ocornut/imgui.git" =>
-    "2da1c66d151aec08aee06be4c5948b3cd256a617",
+    "6a0d0dab5a9f0b9518a2bc9bb456a69895ae0962",
 
     "https://github.com/cimgui/cimgui.git" =>
-    "2b03f434d4afd5cae9d352035edc1fbfd1ac3c2d",
+    "c0d75f6f8d6ddf7262576fb57e6096f188e807b8",
 
     "wrapper",
 ]
