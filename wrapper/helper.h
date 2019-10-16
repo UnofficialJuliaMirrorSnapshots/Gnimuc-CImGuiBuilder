@@ -241,6 +241,8 @@ CIMGUI_API ImVector_ImDrawVert ImDrawList_Get_VtxBuffer(ImDrawList* list);
 CIMGUI_API unsigned int ImDrawCmd_Get_ElemCount(ImDrawCmd* cmd);
 CIMGUI_API ImVec4 ImDrawCmd_Get_ClipRect(ImDrawCmd* cmd);
 CIMGUI_API ImTextureID ImDrawCmd_Get_TextureId(ImDrawCmd* cmd);
+CIMGUI_API unsigned int ImDrawCmd_Get_VtxOffset(ImDrawCmd* cmd);
+CIMGUI_API unsigned int ImDrawCmd_Get_IdxOffset(ImDrawCmd* cmd);
 CIMGUI_API ImDrawCallback ImDrawCmd_Get_UserCallback(ImDrawCmd* cmd);
 CIMGUI_API void* ImDrawCmd_Get_UserCallbackData(ImDrawCmd* cmd);
 

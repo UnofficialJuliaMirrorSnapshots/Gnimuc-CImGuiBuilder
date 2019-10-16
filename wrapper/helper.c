@@ -242,6 +242,8 @@ ImVector_ImDrawVert ImDrawList_Get_VtxBuffer(ImDrawList* list) { return list->Vt
 unsigned int ImDrawCmd_Get_ElemCount(ImDrawCmd* cmd) { return cmd->ElemCount; }
 ImVec4 ImDrawCmd_Get_ClipRect(ImDrawCmd* cmd) { return cmd->ClipRect; }
 ImTextureID ImDrawCmd_Get_TextureId(ImDrawCmd* cmd) { return cmd->TextureId; }
+unsigned int ImDrawCmd_Get_VtxOffset(ImDrawCmd* cmd) { return cmd->VtxOffset; }
+unsigned int ImDrawCmd_Get_IdxOffset(ImDrawCmd* cmd) { return cmd->IdxOffset; }
 ImDrawCallback ImDrawCmd_Get_UserCallback(ImDrawCmd* cmd) { return cmd->UserCallback; }
 void* ImDrawCmd_Get_UserCallbackData(ImDrawCmd* cmd) { return cmd->UserCallbackData; }
 
